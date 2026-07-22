@@ -1,0 +1,160 @@
+@import "tailwindcss";
+@source "./index.html";
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/inter.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Brand Colors */
+  --color-react: #61DAFB;
+  --color-javascript: #F7DF1E;
+  --color-typescript: #3178C6;
+  --color-html: #E34F26;
+  --color-css: #264de4;
+  --color-python: #3776AB;
+  --color-java: #f8981d;
+  --color-springboot: #6DB33F;
+  --color-node: #339933;
+  --color-php: #777BB4;
+  --color-postgresql: #4169E1;
+  --color-mongodb: #47A248;
+  --color-oracle: #F80000;
+  --color-linux: #FCC624;
+  --color-windows: #0078D6;
+  --color-docker: #2496ED;
+  --color-git: #F05032;
+  --color-scrum: #186A3B;
+
+  /* Fonts */
+  --font-display: 'Inter', system-ui, sans-serif;
+  
+  /* Breakpoints */
+  --breakpoint-xs: 350px;
+}
+
+/* Custom Background Animations */
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Professional Grid Background */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+}
+
+@keyframes slide-up-fade {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@utility animate-slide-up-fade {
+  animation: slide-up-fade 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Premium Glassmorphism Utilities */
+@utility glass-panel {
+  @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300;
+}
+
+@utility glass-card-hover {
+  @apply hover:bg-slate-800/50 hover:border-white/20 hover:-translate-y-1.5 hover:shadow-[0_10px_40px_rgba(0,0,0,0.2)];
+}
+
+@utility social-button {
+  @apply p-3 size-12 flex items-center justify-center rounded-2xl glass-panel text-white/60 hover:text-white hover:bg-white/10 hover:border-white/30 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)];
+}
+
+/* Utilidades de Texto Degradado */
+@utility text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-r;
+}
+
+@keyframes textShine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.animate-text-shine {
+  background-size: 200% 100%;
+  animation: textShine 4s linear infinite;
+}
+
+/* Colores Hover fijos por Tecnología */
+.group:hover .hover-color-react { color: #61DAFB !important; }
+.group:hover .hover-color-javascript { color: #F7DF1E !important; }
+.group:hover .hover-color-typescript { color: #3178C6 !important; }
+.group:hover .hover-color-html { color: #E34F26 !important; }
+.group:hover .hover-color-css { color: #264de4 !important; }
+.group:hover .hover-color-python { color: #3776AB !important; }
+.group:hover .hover-color-java { color: #f8981d !important; }
+.group:hover .hover-color-springboot { color: #6DB33F !important; }
+.group:hover .hover-color-node { color: #339933 !important; }
+.group:hover .hover-color-php { color: #777BB4 !important; }
+.group:hover .hover-color-postgresql { color: #4169E1 !important; }
+.group:hover .hover-color-mongodb { color: #47A248 !important; }
+.group:hover .hover-color-oracle { color: #F80000 !important; }
+.group:hover .hover-color-linux { color: #FCC624 !important; }
+.group:hover .hover-color-windows { color: #0078D6 !important; }
+.group:hover .hover-color-docker { color: #2496ED !important; }
+.group:hover .hover-color-git { color: #F05032 !important; }
+.group:hover .hover-color-scrum { color: #186A3B !important; }
+
+
+/* Animación del Emoji Saludando */
+@keyframes wave {
+        0% {
+          transform: rotate(0deg);
+        }
+        10% {
+          transform: rotate(14deg);
+        }
+        20% {
+          transform: rotate(-8deg);
+        }
+        30% {
+          transform: rotate(14deg);
+        }
+        40% {
+          transform: rotate(-4deg);
+        }
+        50% {
+          transform: rotate(10deg);
+        }
+        60% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+      .wave-emoji {
+        transform-origin: 70% 70%;
+        display: inline-block;
+      }
+      h1:hover .wave-emoji {
+        animation: wave 2s infinite;
+      }

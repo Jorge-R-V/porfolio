@@ -1,0 +1,986 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jorge | Portfolio Profesional</title>
+    <meta
+      name="description"
+      content="Portfolio y proyectos de Jorge - Full Stack Developer & Systems Administrator"
+    />
+    <meta property="og:title" content="Jorge | Portfolio Profesional" />
+    <meta
+      property="og:description"
+      content="Portfolio y proyectos de Jorge - Full Stack Developer & Systems Administrator"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://jorge-portfolio.example.com/assets/og-image.webp"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jorge | Portfolio Profesional" />
+    <meta
+      name="twitter:description"
+      content="Portfolio y proyectos de Jorge - Full Stack Developer & Systems Administrator"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="./assets/output.css?v=4" />
+  </head>
+
+  <body
+    class="bg-slate-950 text-white min-h-dvh relative overflow-x-hidden font-display selection:bg-purple-500/30"
+  >
+    <!-- Animated Background -->
+    <div
+      class="fixed inset-0 z-0 flex items-center justify-center overflow-hidden pointer-events-none"
+    >
+      <!-- Grid Pattern -->
+      <div class="absolute inset-0 bg-grid-pattern opacity-30"></div>
+
+      <!-- Subtle Orbs -->
+      <div
+        class="absolute top-1/4 -left-10 w-96 h-96 bg-purple-600/20 rounded-full mix-blend-screen filter blur-[100px] animate-blob"
+      ></div>
+      <div
+        class="absolute bottom-1/4 -right-10 w-96 h-96 bg-cyan-600/20 rounded-full mix-blend-screen filter blur-[100px] animate-blob animation-delay-2000"
+      ></div>
+    </div>
+
+    <!-- Main Container -->
+    <div
+      class="relative z-10 max-w-6xl mx-auto pt-20 px-6 pb-24 min-h-dvh flex flex-col items-center"
+    >
+      <!-- Hero / Profile Header -->
+      <header
+        class="flex flex-col items-center w-full opacity-0 scroll-animate mb-16"
+      >
+        <div class="relative mt-4 group">
+          <div
+            class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full blur opacity-40 group-hover:opacity-70 transition duration-1000 group-hover:duration-200 animate-tilt"
+          ></div>
+          <img
+            alt="Jorge - Foto de Perfil"
+            src="./assets/usuario-icematte_161669-211.webp"
+            class="relative w-48 h-48 object-cover rounded-full border-2 border-white/10 shadow-2xl bg-slate-900 transition-transform duration-500 group-hover:scale-[1.02]"
+          />
+        </div>
+
+        <div
+          class="mt-10 flex flex-col items-center gap-4 text-center max-w-3xl"
+        >
+          <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">
+            Hola, soy
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 animate-text-shine inline-block pb-1"
+              >Jorge</span
+            >
+            <span class="inline-block ml-2 wave-emoji">👋</span>
+          </h1>
+
+          <h2
+            class="text-xl md:text-2xl text-white/80 font-medium tracking-wide"
+          >
+            Full Stack Developer & Systems Administrator
+          </h2>
+        </div>
+
+        <!-- Social Links -->
+        <div class="flex gap-5 mt-10 z-20">
+          <a
+            class="social-button focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            href="https://github.com/Jorge-R-V"
+            target="_blank"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <svg width="24" height="24">
+              <use xlink:href="./assets/sprite.svg?v=2#github" />
+            </svg>
+          </a>
+          <a
+            class="social-button hover:text-[#0A66C2] hover:border-[#0A66C2]/30 focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none"
+            href="https://www.linkedin.com/in/jorge-rodvill"
+            target="_blank"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          >
+            <svg width="24" height="24">
+              <use xlink:href="./assets/sprite.svg?v=2#linkedin" />
+            </svg>
+          </a>
+        </div>
+      </header>
+
+      <div
+        class="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent my-10 opacity-0 scroll-animate"
+      ></div>
+
+      <!-- Proyectos Section -->
+      <main class="w-full flex flex-col items-center gap-24">
+        <section class="w-full opacity-0 scroll-animate">
+          <div class="flex flex-col items-center mb-12">
+            <h2 class="text-3xl font-bold text-white mb-4">
+              Proyectos Destacados
+            </h2>
+            <p class="text-white/50 text-center max-w-xl">
+              Una selección de mis trabajos recientes combinando diseño,
+              desarrollo y arquitectura de sistemas.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/AutomatizacionExtractorUsuarios"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Automatización Extractor</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Herramienta desarrollada en Python para la extracción y análisis de datos en plataformas como YouTube y TikTok, integrando Selenium.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Python</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20">Selenium</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/ProyectoGestorCalorias"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-emerald-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Gestor de Calorías</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Aplicación web para el seguimiento nutricional, construida con React y TypeScript, enfocada en rendimiento y experiencia de usuario.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">React.js</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">TypeScript</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/Proyecto-excursiones"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-red-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Gestión de Excursiones</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Plataforma para administrar excursiones escolares con MongoDB. Incluye control de roles, inscripciones y reportes en PDF.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Python</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-green-500/10 text-green-300 border border-green-500/20">MongoDB</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-slate-500/10 text-slate-300 border border-slate-500/20">Flask</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/GuitarLa-react-ts-main"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-red-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">GuitarLA E-Commerce</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">E-Commerce interactivo para una tienda de guitarras con gestión de carrito en tiempo real, catálogo de productos y checkout simulado.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">React.js</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">TypeScript</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20">Vite</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/PracticaPedidos"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Calculadora de Consumos</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">App web para gestionar comandas en restaurantes, calcular consumos individuales y añadir propinas dinámicamente. (PracticaPedidos)</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-yellow-500/10 text-yellow-300 border border-yellow-500/20">JavaScript</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-orange-500/10 text-orange-300 border border-orange-500/20">HTML</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">CSS</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/ConversorPNG-SVG"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-pink-500/20 to-rose-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Conversor PNG a SVG</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Script automatizado que elimina el fondo de imágenes empleando modelos neuronales (rembg) y las vectoriza a SVG. </p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Python</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-fuchsia-500/10 text-fuchsia-300 border border-fuchsia-500/20">IA</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/ProyectoFinalPython"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-cyan-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">CRUD Gestión de Cine</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Sistema integral de gestión de cartelera de cine con panel de administración, autenticación de usuarios y despliegue en contenedores.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Python</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-slate-500/10 text-slate-300 border border-slate-500/20">Flask</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-green-500/10 text-green-300 border border-green-500/20">MongoDB</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">Docker</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/ProyectoGabineteAbogados"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-slate-500/20 to-gray-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Landing Abogados</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Sitio web corporativo trilingüe diseñado para Maziul & Asociados, con diseño premium responsivo y optimización.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-orange-500/10 text-orange-300 border border-orange-500/20">HTML</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-pink-500/10 text-pink-300 border border-pink-500/20">SCSS</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">CSS</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/simulador-energia"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-amber-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Simulador de Energía</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Aplicación para estimar y modelar el consumo eléctrico horario de una oficina o local, generando proyecciones de gasto.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-yellow-500/10 text-yellow-300 border border-yellow-500/20">JavaScript</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-orange-500/10 text-orange-300 border border-orange-500/20">HTML</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">CSS</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/Carrito"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-red-500/20 to-orange-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Carrito en Java</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Simulación de un sistema E-commerce básico desarrollado enteramente en Java (backend) procesando sesiones y catálogos.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-red-500/10 text-red-300 border border-red-500/20">Java</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/PruebasDise-o"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Laboratorio UI</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Repositorio experimental de componentes, animaciones y layouts responsivos utilizando React y utilidades de Tailwind. (pruebasDiseño)</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">React.js</span>
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Tailwind</span>
+                </div>
+              </div>
+            </button>
+            <!-- Proyecto -->
+            <button
+              data-url="https://github.com/Jorge-R-V/biblioteca"
+              class="glass-panel glass-card-hover rounded-3xl overflow-hidden flex flex-col group text-left w-full focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            >
+              <div class="h-48 bg-slate-800/50 relative overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-red-500/20 to-pink-500/20 group-hover:scale-110 transition-transform duration-700"></div>
+                <svg class="w-16 h-16 text-white/20 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-bold text-white/90 mb-2">Sistema de Biblioteca</h3>
+                <p class="text-sm text-white/60 mb-4 flex-grow">Aplicación web en Java EE para gestión integral de una biblioteca. Incluye préstamos, control de morosidad y roles.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-red-500/10 text-red-300 border border-red-500/20">Java</span>
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-orange-500/10 text-orange-300 border border-orange-500/20">HTML</span>
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/20">CSS</span>
+                
+                  <span class="px-3 py-1 text-xs font-medium rounded-full bg-slate-500/10 text-slate-300 border border-slate-500/20">JDBC</span>
+                </div>
+              </div>
+            </button>
+          </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="w-full opacity-0 scroll-animate">
+          <div class="flex flex-col items-center mb-10">
+            <h2 class="text-3xl font-bold text-white mb-4">
+              Tecnologías & Skills
+            </h2>
+            <p class="text-white/50 text-center max-w-xl">
+              Herramientas y lenguajes que utilizo en mi día a día para
+              construir soluciones tecnológicas.
+            </p>
+          </div>
+
+          <!-- Professional Tabs Menu -->
+          <nav class="flex flex-wrap justify-center gap-3 mb-12">
+            <button
+              data-filter="all"
+              class="px-5 py-2.5 rounded-xl border border-white/20 bg-white/10 text-white text-sm font-semibold tracking-wide transition-all shadow-[0_0_15px_rgba(255,255,255,0.05)]"
+            >
+              Todos
+            </button>
+            <button
+              data-filter="frontend"
+              class="px-5 py-2.5 rounded-xl border border-transparent text-white/50 text-sm font-semibold tracking-wide transition-all hover:text-white hover:bg-white/5"
+            >
+              Frontend
+            </button>
+            <button
+              data-filter="backend"
+              class="px-5 py-2.5 rounded-xl border border-transparent text-white/50 text-sm font-semibold tracking-wide transition-all hover:text-white hover:bg-white/5"
+            >
+              Backend
+            </button>
+            <button
+              data-filter="databases"
+              class="px-5 py-2.5 rounded-xl border border-transparent text-white/50 text-sm font-semibold tracking-wide transition-all hover:text-white hover:bg-white/5"
+            >
+              Data
+            </button>
+            <button
+              data-filter="devops"
+              class="px-5 py-2.5 rounded-xl border border-transparent text-white/50 text-sm font-semibold tracking-wide transition-all hover:text-white hover:bg-white/5"
+            >
+              DevOps & Infra
+            </button>
+          </nav>
+
+          <div class="w-full flex flex-col gap-16">
+            <!-- Frontend -->
+            <div id="frontend" class="tech-section w-full">
+              <div class="flex items-center gap-4 mb-6">
+                <h3
+                  class="text-lg font-semibold text-white/70 uppercase tracking-widest"
+                >
+                  Frontend
+                </h3>
+                <div
+                  class="h-px bg-gradient-to-r from-white/10 to-transparent flex-grow"
+                ></div>
+              </div>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+              >
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-react transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#react" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >React.js</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-javascript transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#javascript" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >JavaScript</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-typescript transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#typescript" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >TypeScript</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-html transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#html" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >HTML</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-css transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#css" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >CSS</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div id="backend" class="tech-section w-full">
+              <div class="flex items-center gap-4 mb-6">
+                <h3
+                  class="text-lg font-semibold text-white/70 uppercase tracking-widest"
+                >
+                  Backend
+                </h3>
+                <div
+                  class="h-px bg-gradient-to-r from-white/10 to-transparent flex-grow"
+                ></div>
+              </div>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+              >
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-python transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#python" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Python</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-java transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#java" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Java</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-springboot transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#springboot" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Spring Boot</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-node transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#node" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Node.js</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-php transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#php" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >PHP</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Databases -->
+            <div id="databases" class="tech-section w-full">
+              <div class="flex items-center gap-4 mb-6">
+                <h3
+                  class="text-lg font-semibold text-white/70 uppercase tracking-widest"
+                >
+                  Bases de Datos
+                </h3>
+                <div
+                  class="h-px bg-gradient-to-r from-white/10 to-transparent flex-grow"
+                ></div>
+              </div>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+              >
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-postgresql transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#postgresql" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >PostgreSQL</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-mongodb transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#mongodb" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >MongoDB</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-oracle transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#oracle" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Oracle</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- DevOps & Infra -->
+            <div id="devops" class="tech-section w-full">
+              <div class="flex items-center gap-4 mb-6">
+                <h3
+                  class="text-lg font-semibold text-white/70 uppercase tracking-widest"
+                >
+                  Infraestructura & DevOps
+                </h3>
+                <div
+                  class="h-px bg-gradient-to-r from-white/10 to-transparent flex-grow"
+                ></div>
+              </div>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+              >
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-linux transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#linux" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Linux</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-windows transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#windows" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Windows Server</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-docker transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#docker" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Docker</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-git transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#git" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Git</span
+                  >
+                </div>
+                <div
+                  class="glass-panel glass-card-hover rounded-2xl p-5 flex flex-col items-center justify-center gap-3 min-h-[120px] group"
+                >
+                  <svg
+                    class="size-12 text-white/50 hover-color-scrum transition-colors duration-300"
+                    width="40"
+                    height="40"
+                  >
+                    <use xlink:href="./assets/sprite.svg?v=2#scrum" />
+                  </svg>
+                  <span
+                    class="font-medium text-sm text-white/70 group-hover:text-white transition-colors"
+                    >Scrum (Agile)</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filter Script -->
+        </section>
+
+        <!-- Contact Section -->
+        <section class="w-full opacity-0 scroll-animate mt-24 mb-10">
+          <div
+            class="glass-panel rounded-[2.5rem] p-8 md:p-12 border border-white/10 bg-gradient-to-br from-slate-900/80 to-slate-950/80 relative overflow-hidden group"
+          >
+            <!-- Animated decorative elements -->
+            <div
+              class="absolute top-0 right-0 -mr-20 -mt-20 w-72 h-72 bg-purple-600/20 rounded-full blur-[80px] group-hover:bg-purple-500/30 transition-colors duration-700"
+            ></div>
+            <div
+              class="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-cyan-600/20 rounded-full blur-[80px] group-hover:bg-cyan-500/30 transition-colors duration-700"
+            ></div>
+            <div class="absolute inset-0 bg-grid-pattern opacity-[0.03]"></div>
+
+            <div
+              class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+            >
+              <!-- Left side: Text & Status -->
+              <div class="flex flex-col items-start text-left">
+                <!-- Status Badge -->
+                <div
+                  class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-medium mb-8"
+                >
+                  <span class="relative flex h-2 w-2">
+                    <span
+                      class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"
+                    ></span>
+                    <span
+                      class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"
+                    ></span>
+                  </span>
+                  Disponible para nuevos proyectos
+                </div>
+
+                <h2
+                  class="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6 tracking-tight"
+                >
+                  Construyamos algo <br />
+                  <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 animate-text-shine inline-block pb-1"
+                    >increíble juntos.</span
+                  >
+                </h2>
+
+                <p class="text-lg text-white/60 mb-8 max-w-md leading-relaxed">
+                  Ya sea un proyecto innovador, una oportunidad laboral o una
+                  consulta técnica, mi bandeja de entrada siempre está abierta.
+                </p>
+              </div>
+
+              <!-- Right side: Contact Cards -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+                <!-- Email Card -->
+                <a
+                  href="mailto:rodriguezvillarrubia@gmail.com"
+                  class="col-span-1 sm:col-span-2 glass-panel p-6 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-cyan-500/30 transition-all duration-300 group/email focus-visible:ring-2 focus-visible:ring-cyan-500 focus:outline-none overflow-hidden relative"
+                >
+                  <div
+                    class="absolute inset-0 bg-gradient-to-r from-cyan-500/0 via-cyan-500/0 to-cyan-500/0 group-hover/email:from-cyan-500/10 group-hover/email:to-transparent transition-all duration-500"
+                  ></div>
+                  <div class="flex items-center gap-5 relative z-10">
+                    <div
+                      class="w-14 h-14 rounded-full bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover/email:scale-110 group-hover/email:bg-cyan-500 group-hover/email:text-white transition-all duration-300 shadow-[0_0_15px_rgba(6,182,212,0.2)]"
+                    >
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <path
+                          d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 class="text-white font-bold text-lg">
+                        Envíame un Email
+                      </h3>
+                      <p
+                        class="text-white/50 text-sm group-hover/email:text-cyan-300/80 transition-colors"
+                      >
+                        rodriguezvillarrubia@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <!-- LinkedIn Card -->
+                <a
+                  href="https://www.linkedin.com/in/jorge-rodvill"
+                  target="_blank"
+                  class="glass-panel p-6 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#0A66C2]/30 transition-all duration-300 group/linkedin focus-visible:ring-2 focus-visible:ring-[#0A66C2] focus:outline-none overflow-hidden relative"
+                >
+                  <div
+                    class="absolute inset-0 bg-gradient-to-br from-[#0A66C2]/0 to-transparent group-hover/linkedin:from-[#0A66C2]/10 transition-all duration-500"
+                  ></div>
+                  <div class="flex flex-col items-start gap-4 relative z-10">
+                    <div
+                      class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white/70 group-hover/linkedin:text-[#0A66C2] group-hover/linkedin:bg-[#0A66C2]/10 transition-colors"
+                    >
+                      <svg width="24" height="24">
+                        <use xlink:href="./assets/sprite.svg?v=2#linkedin" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 class="text-white font-bold">LinkedIn</h3>
+                      <p
+                        class="text-white/50 text-sm group-hover/linkedin:text-white/70"
+                      >
+                        Conectar
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <!-- GitHub Card -->
+                <a
+                  href="https://github.com/Jorge-R-V"
+                  target="_blank"
+                  class="glass-panel p-6 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-purple-500/30 transition-all duration-300 group/github focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none overflow-hidden relative"
+                >
+                  <div
+                    class="absolute inset-0 bg-gradient-to-br from-purple-500/0 to-transparent group-hover/github:from-purple-500/10 transition-all duration-500"
+                  ></div>
+                  <div class="flex flex-col items-start gap-4 relative z-10">
+                    <div
+                      class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white/70 group-hover/github:text-white group-hover/github:bg-white/10 transition-colors"
+                    >
+                      <svg width="24" height="24">
+                        <use xlink:href="./assets/sprite.svg?v=2#github" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 class="text-white font-bold">GitHub</h3>
+                      <p
+                        class="text-white/50 text-sm group-hover/github:text-white/70"
+                      >
+                        Ver proyectos
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Project Modal -->
+      <dialog
+        id="projectModal"
+        class="bg-transparent m-auto p-0 backdrop:bg-slate-950/80 backdrop:backdrop-blur-sm open:animate-slide-up-fade"
+      >
+        <div
+          class="glass-panel rounded-3xl max-w-2xl w-full mx-4 border border-white/10 bg-slate-900/90 text-left overflow-hidden relative"
+        >
+          <button
+            id="closeModalBtn"
+            class="absolute top-4 right-4 p-2 text-white/50 hover:text-white bg-white/5 hover:bg-white/10 rounded-full transition-colors focus-visible:ring-2 focus-visible:ring-purple-500 focus:outline-none"
+            aria-label="Cerrar modal"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <div id="modalContent" class="p-8">
+            <!-- Modal content will be injected here by JS -->
+          </div>
+        </div>
+      </dialog>
+
+      <!-- Footer -->
+      <footer
+        class="w-full mt-24 pt-8 border-t border-white/10 text-center animate-slide-up-fade"
+        style="animation-delay: 400ms"
+      >
+        <p class="text-white/40 text-sm">
+          © <span id="current-year"></span> Jorge. Construido con Tailwind CSS.
+        </p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/js/utils.js?v=2"></script>
+    <script src="./assets/js/animations.js?v=2"></script>
+    <script src="./assets/js/filters.js?v=2"></script>
+    <script src="./assets/js/modal.js?v=2"></script>
+    <script src="./assets/js/project-filters.js?v=2"></script>
+  </body>
+</html>
